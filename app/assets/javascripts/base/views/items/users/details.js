@@ -1,0 +1,3 @@
+UserItemDetails = Backbone.View.extend({
+
+});

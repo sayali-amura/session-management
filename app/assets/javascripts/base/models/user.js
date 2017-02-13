@@ -1,2 +1,2 @@
-var User = Backbone.Model.extend({
+User = Backbone.Model.extend({
 });

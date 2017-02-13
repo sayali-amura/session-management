@@ -1,5 +1,6 @@
-var user_routes = Marionette.AppRouter.extend({
-  // "someMethod" must exist at controller.someMethod
+UserRoutes = Marionette.AppRouter.extend({
+	controller: UserController,
   appRoutes: {
+    "app/users(/)": "index"
   },
 });
